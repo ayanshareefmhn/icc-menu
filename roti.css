@@ -1,0 +1,36 @@
+body{
+    display: flex;
+justify-content: center;
+ align-items: center;
+ margin-top:10px;
+ background-color: #F1F1F1;
+}
+.container h1{
+    margin-left: 70px;
+    font-size: 30px;
+    color: maroon;
+}
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+ul li::marker{
+    content: none;
+}
+ul li{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+button{
+    margin-left: 110px;
+    border-radius: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

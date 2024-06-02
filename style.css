@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    background-color: #F1F1F1;
+}
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+}
+.container h2 {
+    margin-left: 150px;
+}
+.container h1{
+    margin-left: 150px;
+    font-size: 60px;
+    color: maroon;
+}
+.plate{
+    border-radius: 15%;
+    border: 3px solid black;
+}
+button{
+    margin-left: 60px;
+    border-radius: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li::marker{
+    content: none;
+}
+ol li::marker{
+    content: normal;
+}

@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    background-color: #F1F1F1;
+}
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+}
+.container h1{
+    margin-left: 100px;
+    font-size: 60px;
+    color: maroon;
+}
+.menu{
+    border: 3px solid black;
+    border-radius: 25px;
+}
+ul li::marker{
+    content: none;
+}
+ol li::marker{
+    content: normal;
+}
